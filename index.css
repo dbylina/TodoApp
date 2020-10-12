@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(to left,#DC2424,#4A569D);
+}
+
+.container{
+    background-color: white;
+    min-height: 30vh;
+    min-width: 30vw;
+    height: 600px;
+    width: 450px;
+    border-radius: 5%;
+    margin: 100px auto;
+}
+
+h1{
+    text-align: center;
+    padding: 1px;
+    border-bottom: 2px solid;
+}
+
+.input-task{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid blue;
+    outline: 0;
+    font-size: 1.3rem;
+    padding: 7px 0;
+    background: transparent;
+    text-align: center;
+
+}
+
+.add-btn{
+    height: 50px;
+    width: 90px;
+    margin: 10% auto;
+    display: block;
+    border-radius: 4px;
+    background: linear-gradient(to left,#4A569D,#DC2424);
+    color: white;
+    cursor: pointer;
+}
+
+.add-btn:hover{
+    text-shadow: 0 0 6px rgba(255, 255, 255, 1);
+
+}
+
+ul li{
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    transition: 0.2s;
+    width: 90%;
+    border-radius: 4px;
+    text-align: center;
+}
+
+ul li:nth-child(odd){
+    color: white;
+    background: #4A569D;
+    opacity: 0.6;
+}
+ul li:nth-child(even){
+    color: white;
+    background: #DC2424;
+    opacity: 0.6;
+}
+
+ul li.checked {
+    background: limegreen;
+    color: #fff;
+    text-decoration: line-through;
+}
+
